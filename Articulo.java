@@ -20,4 +20,11 @@ public class Articulo {
     void mostrar() {
         System.out.println("ID: " + this.id + " | Nombre: " + this.nombre + " | Precio: $" + this.precio);
     }
+
+    public double getPrecio() {
+        return precio;
+    }
+    public int getId() {
+        return id;
+    }
 }
